@@ -1,0 +1,56 @@
+/* * Ventanas adyacentes*/
+.Ventanas{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: #293462;
+
+    justify-content: center;
+    align-items: center;
+
+    /* background-color: chartreuse; */
+
+    /* bottom: 100vh; */
+}
+#Up{
+    top: -100vh;
+}
+#Down{
+    bottom: -100vh;
+}
+#Right{
+    right: 100vw;
+}
+#Left{
+    left: 100vw;
+}
+
+/* Boton de Cerrar */
+.Button_Close{
+    position: absolute;
+    display: flex;
+    top: 3px;
+    right: 3px;
+    width: 25px;
+    height: 25px;
+    background-color: #fa5252;
+    color: #fff;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    z-index: 1;
+
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ? Ventana Info */
+.VentanaInfo{
+    width: 95%;
+    height: 95%;
+    background-color: #fff1c1;
+
+    border-radius: 5px;
+}

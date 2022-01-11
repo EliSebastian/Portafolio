@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');/*Font: Review     CSS:font-family: 'Raleway', sans-serif;*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    cursor: none;
+}
+#Global{
+    display: flex;
+}
+html{
+    overflow: hidden;
+}
+/* * Menu principal*/
+.Contenedor{
+    width: 50vw;
+    height: 100vh;
+
+text-align: center;
+
+    display: flex;
+    justify-content: center; /*Horizontal*/
+    align-items: center; /*Vertical*/
+
+    font-size: 3em;
+
+    line-height: 2em;
+
+}
+
+.Contenedor li{
+    list-style: none;
+    transition: all 300ms;
+}
+/* .Contenedor li:hover{
+    color: #f76262;
+} */
+
+#Display1{
+    background-color: #293462;
+    color: #fff1c1;
+}
+#Display2{
+    background-color: #fff1c1;
+    color: #293462;
+}
+
+
+
+/* * Mouse*/
+.Mouse{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+
+    border-radius: 50%;
+
+    z-index: 999999999;
+}
+#Mouse1{
+    background-color: #f76262;
+}
+#Mosue2{
+    background-color: #62f7f7;
+}
